@@ -56,7 +56,6 @@ if __name__ == '__main__':
     import matplotlib.pyplot as plt
     plt.style.use('fivethirtyeight')
     from sklearn.datasets import make_blobs
-    import seaborn as sns
 
     X, y = make_blobs(n_samples=200, n_features=2, centers=3, random_state=42)
 
