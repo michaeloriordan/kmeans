@@ -65,4 +65,4 @@ if __name__ == '__main__':
     plt.scatter(X[:,0], X[:,1], s=20)
     plt.scatter(C[:,0], C[:,1], s=80, marker='*')
     plt.tight_layout()
-    plt.savefig('kmeans.pdf')
+    plt.savefig('kmeans.png')
